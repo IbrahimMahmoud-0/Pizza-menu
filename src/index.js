@@ -96,7 +96,6 @@ function Menu() {
 }
 
 function Pizza(props) {
-  console.log(props);
   return (
     <li className="pizza">
       <img src={props.pizzaObj.photoName} alt={props.pizzaObj.name} />
@@ -116,7 +115,6 @@ function Footer() {
   const isOpen = hour >= openHour && hour <= closeHour;
   // if (hour >= openHour && hour <= closeHour) console.log("openned");
   // else console.log("closed");
-  console.log(isOpen);
   return (
     <footer className="footer">
       <div className="order">
